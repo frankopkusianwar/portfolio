@@ -1,0 +1,14 @@
+.header-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-txt {
+  border: 1px solid rgb(20, 109, 20);
+}
+
+.content-center {
+  width: 80%;
+  margin: 0 auto;
+}
