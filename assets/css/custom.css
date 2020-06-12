@@ -68,3 +68,16 @@ body {
 .sub-headers {
   font-family: 'Gotham-bold', sans-serif;
 }
+
+.list {
+  list-style: none;
+}
+
+footer{
+  background: green;
+  color: white;
+}
+
+.cont_button {
+  margin: 0 auto;
+}
