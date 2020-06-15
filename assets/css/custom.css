@@ -16,12 +16,6 @@
   font-weight: 600;
 }
 
-@font-face {
-  font-family: 'Helvetica-Neue-Bold';
-  src: url("fonts/HelveticaNeue.ttc");
-  font-weight: 700;
-}
-
 /* start of styling */
 body {
   font-family: 'Gotham-Rounded-Light';
