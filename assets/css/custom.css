@@ -75,3 +75,17 @@ footer{
 .cont_button {
   margin: 0 auto;
 }
+
+.car-img img {
+  border-radius: 50%;
+  width: 7%;
+  
+}
+
+.left-cont {
+  padding-right: 13%;
+}
+
+.right-cont {
+  padding-left: 13%;
+}

@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/custom.css">
   <title>Frank Okiror</title>
@@ -80,7 +83,7 @@
     </div>
     <div class="row header-content my-5">
       <h1 class="col-12 sub-headers">My Recent Work</h1>
-      <p class="col-12">Here are a few projects I've worked on recently. Want to see more? <a href='#'>Email me</a></p>
+      <p class="col-12">Here are a few projects I've worked on recently. Want to see more? <a href='contact.html' class="text-success text-decoration-none" >Email me</a></p>
     </div>
     <div class="row content-center">
       <div class="col-4 card">
@@ -156,18 +159,52 @@
     <div class="row header-content my-5">
       <h3 class="col-12">Interested in collaborating or hiring me?</h3>
       <p class="col-12">I’m always open to building web apps or partnership opportunities.</p>
-      <div class="cont_button"><button class="col-12 btn-success border-0">Contact Me</button></div>
+      <div class="cont_button"><a href="contact.html"><button class="col-12 btn-success border-0">Contact Me</button></a></div>
     </div>
-    <div class="row header-content my-5">
+    <div class="row header-content my-5 jumbotron bg-dark text-white">
       <h1 class="col-12 sub-headers">Testimonials</h1>
       <p class="col-12">People I've worked with have said some nice things...</p>
-      <p class="col-12">
-        <q>I rarely come across real talents who stand out like Frank. I had the pleasure of working 
-        with Frank at Andela collaborating on several project teams. Frank ability to handle multiple 
-        projects was unlike any I’ve seen before and made a dramatic increase in the productivity level of our projects.
-        No matter how tense a meeting, Frank made sure everyone 
-        left with a smile. As a team member, Frank earns my highest recommendation</q>
-      </p>
+      <div id="demo" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="car-img mb-5 mt-3"><img class="card-img-top mt-2" src="assets/img/adralia.jpg" alt="Card image cap"></div>
+            <p class="col-12 carousel-text">
+              <q>I rarely come across real talents who stand out like Frank. I had the pleasure of working 
+              with Frank at Andela collaborating on several project teams. Frank ability to handle multiple 
+              projects was unlike any I’ve seen before and made a dramatic increase in the productivity level of our projects.
+              No matter how tense a meeting, Frank made sure everyone 
+              left with a smile. As a team member, Frank earns my highest recommendation</q>
+            </p>
+            <h6>Adralia Nelson</h6>
+            <p>Software Developer Kain Group</p>
+          </div>
+          <div class="carousel-item">
+            <div class="car-img mb-5 mt-3"><img class="card-img-top mt-2" src="assets/img/zack.jpg" alt="Card image cap"></div>
+            <p>
+              <q>
+                I have worked with Frank on an Andela external product called EzyAgric, an application that 
+                helps Ugandan local farmers compete at an international level by providing farmers with reliable 
+                farming data, procurement of farming equipment and raw materials, during our development of 
+                the application, Frank demonstrated professionalism in the fields of stakeholder management, 
+                initiative and a high level of technical expertise, Frank is the type of software developer 
+                who is passionate about the profession, boundless drive to deliver on the client's expectations 
+                and self initiative to add more value to the product through conducting extensive research. I endorse 
+                his working ethic highly and recommend him to any company that he seeks employment with.
+              </q>
+            </p>
+            <h6>Zack Atama</h6>
+            <p>Technical Team Lead Kain Group</p>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev left-cont" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next right-cont" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
     </div>
   </main>
   <footer class="mt-3">
