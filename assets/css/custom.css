@@ -94,3 +94,11 @@ footer{
   margin: 0 auto;
   width: 50%;
 }
+
+.green {
+  background: #1A8934;
+}
+
+.email_me {
+  color: #1A8934;
+}
