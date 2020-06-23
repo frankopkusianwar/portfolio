@@ -9,23 +9,31 @@
   <title>Frank Okiror</title>
 </head>
 <body>
-  <h6>Thanks for taking the time to reach out. How can I help you today?</h6>
+  <header class="border-bottom pb-5">
+    <nav class="d-flex justify-content-between mt-4">
+      <a href="index.html"><img src="assets/img/logo.png" alt="logo" class="ml-5"></a>
+      <a href="index.html" class="text-success mr-5 font-weight-bold text-decoration-none">Home</a>
+    </nav>
+  </header>
+  <div class="d-flex justify-content-center mt-5 mb-5"><h3>Thanks for taking the time to reach out. How can I help you today?</h3></div>
   <form>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="inputEmail4">Name</label>
-        <input type="text" class="form-control" id="inputEmail4" placeholder="name">
+    <div class="container cont-form">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Name</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Email</label>
+          <input type="Email" class="form-control" id="inputPassword4" placeholder="email">
+        </div>
       </div>
-      <div class="form-group col-md-6">
-        <label for="inputPassword4">Email</label>
-        <input type="Email" class="form-control" id="inputPassword4" placeholder="email">
+      <div class="form-group mt-3">
+        <label for="inputAddress">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <div class="d-flex justify-content-center"><button type="submit" class="btn btn-success">Submit</button></div>
     </div>
-    <div class="form-group">
-      <label for="inputAddress">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button type="submit" class="btn btn-success">Submit</button>
   </form>
 </body>
 </html>

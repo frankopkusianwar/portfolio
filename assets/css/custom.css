@@ -89,3 +89,8 @@ footer{
 .right-cont {
   padding-left: 13%;
 }
+
+.cont-form {
+  margin: 0 auto;
+  width: 50%;
+}
