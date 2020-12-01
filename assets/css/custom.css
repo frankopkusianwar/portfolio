@@ -22,7 +22,7 @@ body {
 }
 
 .header-content {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .header-txt {
-  border: 2px solid green;
+  border: 0.2px solid green;
   border-radius: 5px;
 }
 
@@ -62,6 +62,20 @@ body {
 
 .list {
   list-style: none;
+  font-size: 1.5em;
+}
+
+.list li a{
+  border-right: 1px solid lightgray;
+  padding-right: 8px;
+}
+
+.list .last-link a{
+  border-right: none;
+}
+
+.list-card {
+  font-size: 1em;
 }
 
 footer{
@@ -98,4 +112,8 @@ footer{
 
 .email_me {
   color: #14762B;
+}
+
+.last {
+  font-size: 1em;
 }
